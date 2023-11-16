@@ -1,16 +1,4 @@
-# Movie-App-React-Native
 
-![Image](https://cdn.dribbble.com/userupload/10352875/file/original-946276bbf114e49f5a41ffefddeda299.png?resize=1200x675)
-
-  
-  <p align="left">
-    <a href="https://www.youtube.com/channel/UCuJNJfjUo2i4c6n09hZTlBQ?sub_confirmation=1"><img alt="Youtube" title="Youtube"  src="https://img.shields.io/badge/-Subscribe-red?style=for-the-badge&logo=youtube&logoColor=white"/></a>
-    <p>
-      Watch the Tutorial on YouTube <a href="https://www.youtube.com/playlist?list=PLvIpPQPabN8JtF9MLcI2UCcmXMENRgx-U" target="_blank">Movie App in React Native</a>
-    </p>
-    
-  </p>
-  
 
 ## Get Started
 
