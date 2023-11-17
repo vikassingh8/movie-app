@@ -13,7 +13,6 @@ export default function TrendingMovies({ data }) {
   const handleClick = (item) => {
     navigation.navigate("Movie", item);
   };
-
   return (
     <View className="mt-2 mb-4 ">
       <View className="flex-row justify-between">
@@ -24,17 +23,20 @@ export default function TrendingMovies({ data }) {
 
       {/* Carousal */}
       <Carousal
-        data={data}
-        renderItem={({ item }) => (
-          <MovieCard item={item} handleClick={handleClick} />
-        )}
-        firstItem={1}
-        inactiveSlideScale={0.86}
-        inactiveSlideOpacity={0.6}
-        sliderWidth={width}
-        itemWidth={width * 0.8}
-        slideStyle={{ display: "flex", alignItems: "center" }}
-      />
+  data={data}
+  renderItem={({ item }) => (
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
+      {/* You can customize this part based on your MovieCard component */}
+      <MovieCard item={item} handleClick={handleClick} />
+    </View>
+  )}
+  firstItem={1}
+  inactiveSlideScale={0.86}
+  inactiveSlideOpacity={0.6}
+  sliderWidth={width}
+  itemWidth={width * 0.8}
+  slideStyle={{ display: "flex", alignItems: "center" }}
+/>
     </View>
   );
 }
